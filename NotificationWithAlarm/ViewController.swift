@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var appDelegate = UIApplication.shared.delegate as? AppDelegate
+    @IBOutlet var timmerPicker: UIDatePicker!
+    @IBAction func showNotificationAction(_ sender: Any) {
+        print("date= \(timmerPicker.date)")
+        appDelegate?.showEduNotification(date: timmerPicker.date)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
