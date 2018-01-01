@@ -40,4 +40,4 @@ let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDaily, repeats:
 </pre>
 
 ### 5. How to create this project.
-[Go to WebSite for Alarm](http://faithdeveloperstory.tistory.com/entry/SWIFT3-Alarm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-LocalNotification-%ED%91%9C%EC%8B%9C?category=704813)
+[Go to WebSite for Alarm](http://faith-developer.tistory.com/entry/SWIFT3-Alarm%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-LocalNotification-%ED%91%9C%EC%8B%9C)
